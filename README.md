@@ -15,6 +15,9 @@ Use this timer to set time faster!
 
 ## Validation Links
 
+[NU Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenovios.github.io%2FDelta-RedesignPrototype%2F)
+[WAVE Validation](https://wave.webaim.org/report#/https://genovios.github.io/Delta-RedesignPrototype/)
+
 ## Infrastructure and Architecture
 
 ## Attribution
@@ -24,4 +27,5 @@ Use this timer to set time faster!
 * Dr. Barry Cumbie (instructor, consulted for idea assistance)
 * W3C Schools (consulted for assistance)
 * ChatGPT (consulted for cleanup of code)
+
 * Google AI (consulted for examples and assistance)
