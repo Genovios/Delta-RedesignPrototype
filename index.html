@@ -15,24 +15,26 @@
 </head>
 
 <body>
-
-  <!-- Timer Idea: -->
-  <!-- 15s 30s 45s -->
-  <!-- 1m 3m 5m 10m -->
-  <!-- Add 1min -->
     
   <div id="currentDesignBox">
-    Box 1
+    This is the current timer design:
+    <div>
+      <image id="currPic" src="assets/currTimerPic.png"></image>
+    </div>
+    It always takes at least two clicks to set the timer (the "play" button is
+    unclickable unless at least 1 second is set in the timer). The timer also requires
+    the user to delete numbers in front of the number they wish to change before they
+    can change that number. For example, if instead of 23:59:59 you wanted 23:59:58, you would
+    need to delete all six numbers, type 2-3-5-9-5 back into the timer, then finally
+    insert the 8 to finish your new time.
   </div>
   
   <div id="prototypeDesignBox">
+    The Following is a usable Prototype Design:
     <div class="timer-widget">
   
       <!-- MAIN DISPLAY -->
       <div id="timeDisplay" class="clock">00:00</div>
-
-      <!-- MINUTES + SECONDS DISPLAY -->
-      <!-- <div id="msDisplay">0m 0s</div> -->
 
       <!-- PRESET BUTTONS -->
       <div>
@@ -56,6 +58,14 @@
 
       <!-- STATUS TEXT -->
       <div id="status">Stopped</div>
+
+      <div id="desc">
+      This prototype aims to allow the user to start a timer with common preset
+      values, which autostart upon clicking so that the user does not need to
+      manually start the timer with the "Start" button. Though this protoype 
+      may not be particularly useful for larger times, it is certainly helpful
+      for quick timer usage at small times.
+      </div>
 
     </div>
   </div>

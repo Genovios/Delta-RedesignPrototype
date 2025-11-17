@@ -19,7 +19,22 @@ Use this timer to set time faster!
 
 *[WAVE Validation](https://wave.webaim.org/report#/https://genovios.github.io/Delta-RedesignPrototype/)
 
-## Infrastructure and Architecture
+## Infrastructure 
+
+- VS Code (Visual Studio, Code Editor)
+- HTML5
+- BS5 (Bootstrap)
+- CSS3
+- JavaScript
+- ChatGPT 5.1
+- Google AI
+- GitHub (Code Editor, Source Code / Repository)
+- GitHub Pages (Deploy Site)
+- F12 / Browser Dev Tools (Microsoft Edge, Google Chrome)
+
+## Architecture
+
+* Site
 
 ## Attribution
 
@@ -28,6 +43,4 @@ Use this timer to set time faster!
 * Dr. Barry Cumbie (instructor, consulted for idea assistance)
 * W3C Schools (consulted for assistance)
 * ChatGPT (consulted for cleanup of code)
-
 * Google AI (consulted for examples and assistance)
-
