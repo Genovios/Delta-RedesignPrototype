@@ -26,7 +26,38 @@
   </div>
   
   <div id="prototypeDesignBox">
-    Box 2
+    <div class="timer-widget">
+  
+      <!-- MAIN DISPLAY -->
+      <div id="timeDisplay" class="clock">00:00</div>
+
+      <!-- MINUTES + SECONDS DISPLAY -->
+      <!-- <div id="msDisplay">0m 0s</div> -->
+
+      <!-- PRESET BUTTONS -->
+      <div>
+        <button class="preset" data-seconds="15">15s</button>
+        <button class="preset" data-seconds="30">30s</button>
+        <button class="preset" data-seconds="45">45s</button>
+        <button class="preset" data-seconds="60">1m</button>
+        <button class="preset" data-seconds="180">3m</button>
+        <button class="preset" data-seconds="300">5m</button>
+        <button class="preset" data-seconds="600">10m</button>
+      </div>
+
+      <!-- CONTROLS -->
+      <div>
+        <button id="addMinBtn">+1m</button>
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+        <button id="stopBtn">Stop</button>
+      </div>
+
+      <!-- STATUS TEXT -->
+      <div id="status">Stopped</div>
+
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
