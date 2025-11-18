@@ -14,7 +14,7 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
-  max-width: 300px;
+  max-width: 420px;
   background-color: yellowgreen;
   color: black;
   font-weight: bold;
@@ -111,3 +111,4 @@ footer {
 .nav-link-active:hover {
   color: crimson;
 }
+
